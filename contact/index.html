@@ -24,7 +24,7 @@
       <h1>Contact</h1>
       <p>
         Thanks for stopping by! Whether you're interested in my work, have a question about a project,
-        or just want to say hello, feel free to reach out below.
+        or just want to say hello, <em>feel free to reach out below.</em>
       </p>
 
       <section aria-labelledby="form-heading">
@@ -70,6 +70,34 @@
           </li>
         </ul>
       </section>
+
+      <!-- Will remove later, extras for certain tags -->
+      <section aria-labelledby="extras-heading">
+        <h2 id="extras-heading">Extras</h2>
+
+        <!-- iframe -->
+        <iframe
+          title="iframe note"
+          srcdoc="<p>Enstein said, &quot;Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.&quot;</p>">
+        </iframe>
+
+        <!-- progress -->
+        <p id="resp-label">Response queue progress:</p>
+        <progress aria-labelledby="resp-label" max="100" value="66">66%</progress>
+
+        <!-- dialog -->
+        <dialog open>
+          <p><strong>Heads up:</strong> I am easier to reach through an email directly! </p>
+        </dialog>
+
+        <!-- inline svg (accessible) -->
+        <p>Thanks for reaching out!</p>
+        <svg width="48" height="48" viewBox="0 0 24 24" role="img" aria-labelledby="svg-title">
+          <title id="svg-title">Envelope icon</title>
+          <path d="M2 6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6zm2 0l8 5 8-5H4zm16 2.5l-8 5-8-5V18h16V8.5z"/>
+        </svg>
+      </section>
+
     </main>
 
     <footer>
