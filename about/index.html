@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>About - Tanner Berman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="About Tanner Berman - background, bio, and photos.">
+    <link rel="icon" href="/assets/images/favicon.png">
+  </head>
+
+  <body>
+    <header>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/experience/">Experience</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <h1>About Me</h1>
+
+      <!-- Headshot (picture + figure for semantics and future responsiveness) -->
+      <figure>
+        <picture>
+          <!-- Optional WebP source if you export one later -->
+          <source srcset="/assets/images/headshot.webp" type="image/webp">
+          <img
+            src="/assets/images/headshot.jpg"
+            alt="Headshot"
+            width="600"
+            height="600">
+        </picture>
+      </figure>
+
+      <!-- Detailed bio -->
+      <section aria-labelledby="bio-heading">
+        <h2 id="bio-heading">Bio</h2>
+        <p>
+          I grew up on computers, built three of my own, and spent a lot of time on
+          games as a kid. That curiosity pulled me toward Computer Science. I'm excited by
+          software that can impact millions at once, and I love exploring autonomous vehicles,
+          agentic AI, and (lately) operating systems.
+        </p>
+        <p>
+          Outside of class, I'm a guitarist/vocalist and songwriter. I spent two years in a
+          Santa Barbara band with 20+ shows, including dates in San Jose and LA (plus a couple
+          bands back in high school). I ran sprints in early high school, then fell for beach
+          volleyball after graduating; now I play with UCSD's Beach Volleyball club and friends.
+          I'm a new but enthusiastic skier. Favorite foods: dim sum (pork &amp; shrimp shumai is the best),
+          sushi, Thai, and Mexican.
+        </p>
+      </section>
+
+      <!-- Life photos gallery (structural only; images are placeholders for now) -->
+      <section aria-labelledby="gallery-heading">
+        <h2 id="gallery-heading">Life in Photos</h2>
+
+        <article class="life-photo">
+          <figure>
+            <img
+              src="/assets/images/band.jpg"
+              alt="Playing guitar and singing at a small venue in Santa Barbara"
+              width="900"
+              height="600">
+            <figcaption>Playing a show with my band in Santa Barbara.</figcaption>
+          </figure>
+        </article>
+
+        <article class="life-photo">
+          <figure>
+            <img
+              src="/assets/images/beach-volleyball.jpg"
+              alt="Beach volleyball match at UCSD (Muir) courts"
+              width="900"
+              height="600">
+            <figcaption>Beach volleyball with the UCSD club.</figcaption>
+          </figure>
+        </article>
+
+        <article class="life-photo">
+          <figure>
+            <img
+              src="/assets/images/ski.jpg"
+              alt="First ski trip, learning on a green run"
+              width="900"
+              height="600">
+            <figcaption>First ski days, green runs only (for now).</figcaption>
+          </figure>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        <small>© <time datetime="2025">2025</time> Tanner Berman</small>
+      </p>
+      <noscript>JavaScript is not required to use this page.</noscript>
+    </footer>
+  </body>
+</html>
