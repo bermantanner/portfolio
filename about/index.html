@@ -23,10 +23,8 @@
     <main id="main">
       <h1>About Me</h1>
 
-      <!-- Headshot (picture + figure for semantics and future responsiveness) -->
       <figure>
         <picture>
-          <!-- Optional WebP source if you export one later -->
           <source srcset="/assets/images/headshot.webp" type="image/webp">
           <img
             src="/assets/images/headshot.jpg"
@@ -36,7 +34,6 @@
         </picture>
       </figure>
 
-      <!-- Detailed bio -->
       <section aria-labelledby="bio-heading">
         <h2 id="bio-heading">Bio</h2>
         <p>
@@ -55,42 +52,35 @@
         </p>
       </section>
 
-      <!-- Life photos gallery (structural only; images are placeholders for now) -->
       <section aria-labelledby="gallery-heading">
         <h2 id="gallery-heading">Life in Photos</h2>
 
-        <article class="life-photo">
-          <figure>
-            <img
-              src="/assets/images/band.jpg"
-              alt="Playing guitar and singing at a small venue in Santa Barbara"
-              width="900"
-              height="600">
-            <figcaption>Playing a show with my band in Santa Barbara.</figcaption>
-          </figure>
-        </article>
+      <figure class="life-photo">
+        <img
+          src="/assets/images/band.jpg"
+          alt="Playing guitar and singing at a small venue in Santa Barbara"
+          width="900"
+          height="600">
+        <figcaption>Playing a show with my band in Santa Barbara.</figcaption>
+      </figure>
 
-        <article class="life-photo">
-          <figure>
-            <img
-              src="/assets/images/beach-volleyball.jpg"
-              alt="Beach volleyball match at UCSD (Muir) courts"
-              width="900"
-              height="600">
-            <figcaption>Beach volleyball with the UCSD club.</figcaption>
-          </figure>
-        </article>
+      <figure class="life-photo">
+        <img
+          src="/assets/images/beach-volleyball.jpg"
+          alt="Beach volleyball match at UCSD (Muir) courts"
+          width="900"
+          height="600">
+        <figcaption>Beach volleyball with the UCSD club.</figcaption>
+      </figure>
 
-        <article class="life-photo">
-          <figure>
-            <img
-              src="/assets/images/ski.jpg"
-              alt="First ski trip, learning on a green run"
-              width="900"
-              height="600">
-            <figcaption>First ski days, green runs only (for now).</figcaption>
-          </figure>
-        </article>
+      <figure class="life-photo">
+        <img
+          src="/assets/images/ski.jpg"
+          alt="First ski trip, learning on a green run"
+          width="900"
+          height="600">
+        <figcaption>First ski days, green runs only (for now).</figcaption>
+      </figure>
       </section>
     </main>
 
